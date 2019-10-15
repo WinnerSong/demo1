@@ -1,0 +1,20 @@
+{
+    "name": "songzw\/demo1",
+    "description": "test demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "songzw",
+            "email": "songzw1024@163.com"
+        }
+    ],
+    "require": {
+      "songzw/hello":"1.*",
+      "php":"7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Songzw\\Demo1\\": "src"
+        }
+    }
+}
